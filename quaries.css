@@ -1,0 +1,124 @@
+@media (max-width: 1000px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .corporis-header,
+  .lower-contact {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .lower-corporis {
+    flex-direction: column-reverse;
+  }
+  .test-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .portfolio-sec {
+    margin: 0;
+  }
+  .pricing-box {
+    grid-template-columns: 1fr;
+  }
+  .scale-up {
+    transform: scale(1);
+  }
+  .listbox {
+    display: none;
+  }
+  .hero{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 700px) {
+  .myob-box {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .cl {
+    width: 50%;
+    margin: auto;
+  }
+  .aboutus-sec,
+  .testimonial-sec{
+    flex-direction: column;
+  }
+  .ducimus-box{
+    margin-top: 1rem;
+  }
+  .lorem-box,
+  .recent-grid,
+  .member-grid{
+    grid-template-columns: 1fr;
+  }
+  .testimonial-sec{
+    margin: 1rem;
+  }
+  .footer-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+    .style-test-sec,
+    .contact-add{
+        grid-template-columns: 1fr;
+    }
+    .call-note,
+    .call-btn{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .inputandbtn{
+        margin: 1rem;
+    }
+    .question-home{
+        flex-direction: column;
+    }
+    .corporis-img1{
+        display: none;
+    }
+    .corporis-img2{
+        width: 100%;
+    }
+    .inputandbtn{
+        width: 80%;
+        height: 5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .eius-box,
+    .text-box-holder{
+        grid-template-columns: 1fr;
+    }
+    .work-about,
+    .footer-grid,   
+    .prt-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact-email,
+    .contact-name {
+        padding: 1rem;
+    }
+    .test-sec {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media (max-width: 750px){
+  .contact-add-box{
+        grid-template-columns: 1fr;
+    }
+    .pricing-box{
+        padding: 0;
+   }
+}
